@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -33,10 +33,10 @@
                     <color key="backgroundColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="0.14999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
                 </imageView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dEl-s8-6vU">
-                    <rect key="frame" x="9" y="174.5" width="357" height="318"/>
+                    <rect key="frame" x="9" y="155.5" width="357" height="356"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jTz-eN-yAz" userLabel="Header View">
-                            <rect key="frame" x="0.0" y="8" width="357" height="180"/>
+                            <rect key="frame" x="0.0" y="24" width="357" height="180"/>
                             <subviews>
                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Rwc-nf-sc4">
                                     <rect key="frame" x="0.0" y="0.0" width="357" height="180"/>
@@ -52,27 +52,27 @@
                             </constraints>
                         </view>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="boW-P6-B3N">
-                            <rect key="frame" x="8" y="198" width="341" height="23"/>
+                            <rect key="frame" x="8" y="228" width="341" height="23"/>
                             <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                             <constraints>
                                 <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="23" id="KOt-Js-u7B"/>
                             </constraints>
-                            <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="17"/>
-                            <color key="textColor" red="0.92941176469999998" green="0.59607843140000005" blue="0.08235294118" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                            <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BaL-rf-G7t">
-                            <rect key="frame" x="8" y="229" width="341" height="21"/>
+                            <rect key="frame" x="8" y="251" width="341" height="21"/>
                             <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                             <constraints>
                                 <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="cg8-6J-yzj"/>
                             </constraints>
-                            <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="15"/>
-                            <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="WJc-5g-auJ">
-                            <rect key="frame" x="0.0" y="258" width="357" height="60"/>
+                            <rect key="frame" x="0.0" y="296" width="357" height="60"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="60" id="sZH-1X-biu"/>
                             </constraints>
@@ -82,7 +82,7 @@
                     <constraints>
                         <constraint firstItem="BaL-rf-G7t" firstAttribute="leading" secondItem="dEl-s8-6vU" secondAttribute="leading" constant="8" id="1e4-wO-qFm"/>
                         <constraint firstAttribute="width" constant="357" id="2KX-8C-U18"/>
-                        <constraint firstItem="jTz-eN-yAz" firstAttribute="top" secondItem="dEl-s8-6vU" secondAttribute="top" constant="8" id="AT5-Y6-bpb"/>
+                        <constraint firstItem="jTz-eN-yAz" firstAttribute="top" secondItem="dEl-s8-6vU" secondAttribute="top" constant="24" id="AT5-Y6-bpb"/>
                         <constraint firstAttribute="trailing" secondItem="BaL-rf-G7t" secondAttribute="trailing" constant="8" id="DOm-G9-Two"/>
                         <constraint firstAttribute="trailing" secondItem="jTz-eN-yAz" secondAttribute="trailing" id="Ddd-hz-T8q"/>
                         <constraint firstAttribute="bottom" secondItem="WJc-5g-auJ" secondAttribute="bottom" id="P7Y-tt-2D9"/>
@@ -91,10 +91,10 @@
                         <constraint firstAttribute="trailing" secondItem="boW-P6-B3N" secondAttribute="trailing" constant="8" id="SND-Z1-FOC"/>
                         <constraint firstItem="boW-P6-B3N" firstAttribute="leading" secondItem="dEl-s8-6vU" secondAttribute="leading" constant="8" id="WdL-bT-Fz2"/>
                         <constraint firstItem="jTz-eN-yAz" firstAttribute="leading" secondItem="dEl-s8-6vU" secondAttribute="leading" id="Xmp-HN-MqT"/>
-                        <constraint firstItem="BaL-rf-G7t" firstAttribute="top" secondItem="boW-P6-B3N" secondAttribute="bottom" constant="8" id="aGA-Q3-kPo"/>
+                        <constraint firstItem="BaL-rf-G7t" firstAttribute="top" secondItem="boW-P6-B3N" secondAttribute="bottom" id="aGA-Q3-kPo"/>
                         <constraint firstAttribute="trailing" secondItem="WJc-5g-auJ" secondAttribute="trailing" id="bPd-4c-qNR"/>
-                        <constraint firstItem="WJc-5g-auJ" firstAttribute="top" secondItem="BaL-rf-G7t" secondAttribute="bottom" constant="8" id="fJD-P4-UWd"/>
-                        <constraint firstItem="boW-P6-B3N" firstAttribute="top" secondItem="jTz-eN-yAz" secondAttribute="bottom" constant="10" id="ig2-Tg-QbJ"/>
+                        <constraint firstItem="WJc-5g-auJ" firstAttribute="top" secondItem="BaL-rf-G7t" secondAttribute="bottom" constant="24" id="fJD-P4-UWd"/>
+                        <constraint firstItem="boW-P6-B3N" firstAttribute="top" secondItem="jTz-eN-yAz" secondAttribute="bottom" constant="24" id="ig2-Tg-QbJ"/>
                     </constraints>
                 </view>
             </subviews>

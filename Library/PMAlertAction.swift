@@ -19,6 +19,8 @@ import UIKit
     fileprivate var action: (() -> Void)?
     
     open var actionStyle : PMAlertActionStyle
+    private let defaultColor = UIColor(colorLiteralRed:14.0/255, green:122.0/255, blue:254.0/255, alpha:1.0)
+    
     
     var separator = UIImageView()
     
@@ -34,10 +36,10 @@ import UIKit
         self.addTarget(self, action: #selector(PMAlertAction.tapped(_:)), for: .touchUpInside)
         
         self.setTitle(title, for: UIControlState())
-        self.titleLabel?.font = UIFont(name: "Avenir-Heavy", size: 17)
+        self.titleLabel?.font = style == .default ? UIFont.systemFont(ofSize: 17) : UIFont.boldSystemFont(ofSize: 17)
         
         self.actionStyle = style
-        style == .default ? (self.setTitleColor(UIColor(red: 191.0/255.0, green: 51.0/255.0, blue: 98.0/255.0, alpha: 1.0), for: UIControlState())) : (self.setTitleColor(UIColor.gray, for: UIControlState()))
+        self.setTitleColor(defaultColor, for: UIControlState())
         
         self.addSeparator()
     }
